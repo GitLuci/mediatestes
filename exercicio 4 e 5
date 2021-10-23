@@ -11,3 +11,15 @@ else:
         print("Voce reprovou")
     else:
         print("Voce foi aprovado")
+
+
+
+apenas media 
+t1 = int(input("Digite o valor do primeiro teste"))
+t2 = int(input("Digite o valor do segundo teste"))
+t3 = int(input("Digite o valor do terceiro teste"))
+t4 = int(input("Digite o valor do quarto teste"))
+if ((t1+t2+t3+t4) /4) >= 10:
+    print("Parabens, voce passou")
+else:
+    print("voce foi reprovado")
